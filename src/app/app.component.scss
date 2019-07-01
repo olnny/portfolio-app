@@ -1,0 +1,44 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.portfolio {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-nav__link {
+    padding: 15px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    text-decoration: none;
+}
+.portfolio-nav__link:hover {
+    opacity: .85;
+}
+
+.portfolio-content__title:before,
+.portfolio-content__title:after {
+    content: '-';
+}
+
+.portfolio-content__title {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'Literata', serif;
+    color: #363636;
+}
+
+.portfolio-content__text {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    color: #363636;
+}

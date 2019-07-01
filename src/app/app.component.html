@@ -1,0 +1,13 @@
+<header class='portfolio-header'>
+  <nav class='portfolio-nav'>
+    <a class='portfolio-nav__link' [routerLink]="['/services']">Services</a>
+    <a class='portfolio-nav__link' [routerLink]="['/gallery']">Gallery</a>
+    <a class='portfolio-nav__link' [routerLink]="['/projects']">Projects</a>
+    <a class='portfolio-nav__link' [routerLink]="['/projects']" [queryParams]="{filter: 'web'}">Web Projects</a>
+    <a class='portfolio-nav__link' [routerLink]="['/projects']" [queryParams]="{filter: 'mobile'}">Mobile App</a>
+  </nav>
+</header>
+<section class='portfolio-content'>
+  <router-outlet></router-outlet>
+</section>
+<footer class='portfolio-footer'></footer>
